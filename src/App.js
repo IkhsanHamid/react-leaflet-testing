@@ -5,7 +5,7 @@ import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import { Icon } from "leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import earthquakes from "./earthqukes.json";
-import iconUrl from "../public/location-pin.png";
+import iconUrl from "./images/location-pin.png";
 
 export default function App() {
   const customIcon = new Icon({
